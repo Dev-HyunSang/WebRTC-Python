@@ -13,7 +13,6 @@ JavaScript와 Python을 통한 웹 소켓 통신
 ```shell
 pip install opencv-python
 pip install simple_websocket_server
-pip install websocketserver
+pip install websocket-server
 pip install websocket
 ```
-
