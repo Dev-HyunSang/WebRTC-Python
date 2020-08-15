@@ -5,6 +5,11 @@ import numpy as np
 import warnings
 warnings.simplefilter('ignore', DeprecationWarning)
 
+# OPENCV PYTHON RECORING / 개발 중...
+capture = cv2.VideoCapture("/image/Recording.mpy");
+fourcc = cv2.VideoWriter_fourcc(*'XVID')
+record = False
+
 class SimpleEcho(WebSocket):
     def handle(self):
         msg = self.data
