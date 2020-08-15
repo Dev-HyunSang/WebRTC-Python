@@ -6,12 +6,16 @@
   <link rel="stylesheet" href="./main.css" type="text/css" />
 </head>
 <body>
+  <p class="waring">Video Width: 320px Height: 320px</p>
 	<video id="videoInput" style="display:none"></video>
-  <canvas id="videoOutput"></canvas>
-  <button onclick=stream()>Send</button>
+  <canvas id="videoOutput" class="video-ouput"></canvas>
+  <br>
+  <button onclick='stream()' class="btn-send">Send</button>
+  <p class="waring">!WAIT! 서버를 실행 시키고 Send 버튼을 누르시오.</p>
 </body>
 <script>
-  var w = 320, h = 240;
+  var w = 320;
+  var h = 240;
 	var url = "ws://localhost:3000"
 	var ws = new WebSocket(url);
 	ws.onopen = function(){

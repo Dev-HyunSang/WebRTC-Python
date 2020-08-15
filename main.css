@@ -1,0 +1,24 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.btn-send{
+	width: 100px;
+	height: 30px;
+	margin-left: 10px;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.video-ouput{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.waring{
+	color: red;
+	margin-left: 10px;
+	padding-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+}
